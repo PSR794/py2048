@@ -22,3 +22,32 @@
 1. Other moves like 'e' and 'r'are provided to exit and restart the game at any point.
 1. 'c' displays the controls anytime the user wants to.
 1. The code displays if the player has lost or won and breaks out of the loop.
+
+### WORKING OF CODE 
+Here is a simple example about how the code will work on making all the moves:
+
+__this is our sample grid__
+![](images/ssf1.PNG)
+* now the user inputs 'w' that is the up swipe then the code enters the SWIPE function each time the player makes a move and swipes the numbers and modifies the grid in grid_modify according to the respective algorithm and as per the rules it gives this output
+
+__up swipe__
+![](images/ssfw2.PNG)
+* after modifying the grid the code checks evrytime if the SWIPE function had run, if it did then it spawns a 2 at random space.
+* now if the user hits 'a'.
+
+__left swipe__
+![](images/ssfa3.PNG)
+* same process is repeated and the left swipe algorithm is used.
+* now the user hits 's'
+
+__down swipe__
+![](images/ssfs4.PNG)
+
+* on each move the win or lose conditions are checked 
+* now if user inputs 'd'
+
+__right swipe__
+![](images/ssfd5.PNG)
+
+* When there is a win or lose situation the WIN_CHECK or LOSE_CHECK repectively returns a value which breaks the loop which is designed to demand input from the user.
+ 
