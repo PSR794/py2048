@@ -23,31 +23,57 @@
 1. 'c' displays the controls anytime the user wants to.
 1. The code displays if the player has lost or won and breaks out of the loop.
 
-### WORKING OF CODE 
-Here is a simple example about how the code will work on making all the moves:
+### WORKING OF CODE
 
-__this is our sample grid__
-![](images/ssf1.PNG)
-* now the user inputs 'w' that is the up swipe then the code enters the SWIPE function each time the player makes a move and swipes the numbers and modifies the grid in grid_modify according to the respective algorithm and as per the rules it gives this output
+  #### WASD MOVES
+  Here is a simple example about how the code will work on making all the moves:
 
-__up swipe__
-![](images/ssfw2.PNG)
-* after modifying the grid the code checks evrytime if the SWIPE function had run, if it did then it spawns a 2 at random space.
-* now if the user hits 'a'.
+  __this is our sample grid__
+  ![](images/ssf1.PNG)
+  * now the user inputs 'w' that is the up swipe then the code enters the SWIPE function each time the player makes a move and swipes the numbers and modifies the grid in grid_modify according to the respective algorithm and as per the rules it gives this output
 
-__left swipe__
-![](images/ssfa3.PNG)
-* same process is repeated and the left swipe algorithm is used.
-* now the user hits 's'
+  __up swipe__
+  ![](images/ssfw2.PNG)
+  * after modifying the grid the code checks evrytime if the SWIPE function had run, if it did then it spawns a 2 at random space.
+  * now if the user hits 'a'.
 
-__down swipe__
-![](images/ssfs4.PNG)
+  __left swipe__
+  ![](images/ssfa3.PNG)
+  * same process is repeated and the left swipe algorithm is used.
+  * now the user hits 's'
 
-* on each move the win or lose conditions are checked 
-* now if user inputs 'd'
+  __down swipe__
+  ![](images/ssfs4.PNG)
 
-__right swipe__
-![](images/ssfd5.PNG)
+  * on each move the win or lose conditions are checked 
+  * now if user inputs 'd'
 
-* When there is a win or lose situation the WIN_CHECK or LOSE_CHECK repectively returns a value which breaks the loop which is designed to demand input from the user.
+  __right swipe__
+  ![](images/ssfd5.PNG)
+
+  * When there is a win or lose situation the WIN_CHECK or LOSE_CHECK repectively returns a value which breaks the loop which is  designed to demand input from the user.
+  
+  #### INVALID MOVE
+  This a sample grid where for the next move the user inputs 'd' so as per the algorithm no element of the grid is swiped so t doesnt returns a value hence not spawning a 2 and giving a message of "try some other move".
+  
+  __sample__
+  ![](images/key1.PNG)
+  
+  __error__
+  ![](images/key2.PNG)
+  
+  #### WIN AND LOSE
+  * If either of the functions (WIN_CHECK AND LOSE_CHECK) returns a value then it breaks the loop for game play. And displays a message.
+  * here is the example of it.
+  
+  __win__
+ ![](images/win.PNG)
  
+ the printing winning number 8 was just to tell that the input was 8 for winning number actual code doesnt do that
+ 
+ __lose__
+ ![](images/lose.PNG)
+ 
+ As we can see the grid is packed and the there is no adjacent like numbers in horizontal or vertical direction.
+
+
