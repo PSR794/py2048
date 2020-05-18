@@ -1,5 +1,5 @@
 # py2048
-## THE 2048 GAME
+>## THE 2048 GAME
 * The code contains the programs for the game '2048'.
 * Python is used for programming.
 ### GAME RULES
