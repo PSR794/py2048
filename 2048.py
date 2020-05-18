@@ -218,10 +218,10 @@ def main():
             if LOSE_CHECK() or WIN_CHECK():
                 break
             
-        if LOSE_CHECK():
-            print("you lose")
+        if WIN_CHECK():
+            print('you win')
         else:
-            print(f'you win \n winning number was {w}')
+            print('you lose')
             
         print('do you want to play again?\n Give Answer In y/n:')   #asking the user after the game if he/she wants to play again
         PLAY=msvcrt.getch()
