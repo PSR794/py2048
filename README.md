@@ -26,6 +26,14 @@
 1. 'c' displays the controls anytime the user wants to.
 1. The code displays if the player has lost or won and breaks out of the loop.
 
+>###INPUT INSTRUCTIONS
+* Both the things (grid size and winning number) require 0 for the default settings.
+* If an incorrect input is given to the grid size then it asks again for the input.
+* If in the winning number anything other than a number is hit then it restarts the code.
+* If a number whose Nth root is not '2' is pressed, then it asks to input a valid number.
+* For the moves, if the move is not possible then it asks to try some other move.
+* If any other key is pressed other than the specified keys then it prints "invalid input" and continues to ask till valid input is given, the game is continued.
+
 
 >### WORKING OF CODE
 
