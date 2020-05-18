@@ -1,6 +1,7 @@
 # py2048
 >## THE 2048 GAME
 * The code contains the programs for the game '2048' in Python.
+* The code was made using PYTHON(3.7) IDLE on Windows 10.
 
 >### GAME RULES
 * It starts with a grid having, a '2' anywhere on the grid.
