@@ -1,7 +1,6 @@
 # py2048
 >## THE 2048 GAME
-* The code contains the programs for the game '2048'.
-* Python is used for programming.
+* The code contains the programs for the game '2048' in Python.
 
 >### GAME RULES
 * It starts with a grid having, a '2' anywhere on the grid.
