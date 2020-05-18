@@ -2,10 +2,12 @@
 >## THE 2048 GAME
 * The code contains the programs for the game '2048'.
 * Python is used for programming.
+
 >### GAME RULES
 * It starts with a grid having, a '2' anywhere on the grid.
 * PLayer's aim is to generate the target number in the grid to win the game.
 * Player will lose if he/she runs out of move, with the target number still not produced.
+
   >#### THE GAME PLAY AND WIN/LOSE SITUATION
   * PLayer has to swipe the grid in the 4 directions according to the choice.
   * After each move a new '2' is spawned in the grid on empty spaces.
@@ -23,6 +25,7 @@
 1. Other moves like 'e' and 'r'are provided to exit and restart the game at any point.
 1. 'c' displays the controls anytime the user wants to.
 1. The code displays if the player has lost or won and breaks out of the loop.
+
 
 >### WORKING OF CODE
 
@@ -54,6 +57,7 @@
 
   * When there is a win or lose situation the WIN_CHECK or LOSE_CHECK repectively returns a value which breaks the loop which is  designed to demand input from the user.
   
+  
   >#### INVALID MOVE
   This a sample grid where for the next move the user inputs 'd' so as per the algorithm no element of the grid is swiped so it doesnt returns a value hence not spawning a 2 and giving a message of "try some other move".
   
@@ -62,6 +66,7 @@
   
   >__error__
   ![](images/key2.PNG)
+  
   
   >#### WIN AND LOSE
   * If either of the functions (WIN_CHECK AND LOSE_CHECK) returns a value then it breaks the loop for game play. And displays a message.
