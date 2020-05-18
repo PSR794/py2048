@@ -1,18 +1,18 @@
 # py2048
 ## THE 2048 GAME
 * The code contains the programs for the game '2048'.
-* Python is the programming language used.
+* Python is used for programming.
 ### GAME RULES
 * It starts with a grid having, a '2' anywhere on the grid.
 * PLayer's aim is to generate the target number in the grid to win the game.
 * Player will lose if he/she runs out of move, with the target number still not produced.
-  #### THE GAME PLAY AND WIN/LOSE SITuATION
+  #### THE GAME PLAY AND WIN/LOSE SITUATION
   * PLayer has to swipe the grid in the 4 directions according to the choice.
-  * After each move a new '2' is spawned in the grud on emoty spaces.
-  * swiping leads to the numberes shift to the last available empty space in the direction the grid is swiped.
+  * After each move a new '2' is spawned in the grid on empty spaces.
+  * Swiping leads to the numberes shift to the last available empty space in the direction the grid is swiped.
   * PLayer has to produce a higher by fusing two similar numbers i.e only numbers whose Nth root is '2' can be produced.
   * If the player manages to prduce the target number before there is  no move left i.e, if all spaces are occupied given no two similar numbers are adjacent in both the directions, then the player wins!.
-  * another important rule is that, if a number is produced by fusion  o ftwo numbers then that fused number is not fused again with itself in that same move.
+  * another important rule is that, if a number is produced by fusion of two numbers then that fused number is not fused again with itself in that same move.
   
 ### ABOUT THE CODE
 1. It asks the user to input the grid size and winning number.(input 0 for default settings [5X5 grid with 2048 as winning number])
@@ -54,7 +54,7 @@
   * When there is a win or lose situation the WIN_CHECK or LOSE_CHECK repectively returns a value which breaks the loop which is  designed to demand input from the user.
   
   #### INVALID MOVE
-  This a sample grid where for the next move the user inputs 'd' so as per the algorithm no element of the grid is swiped so t doesnt returns a value hence not spawning a 2 and giving a message of "try some other move".
+  This a sample grid where for the next move the user inputs 'd' so as per the algorithm no element of the grid is swiped so it doesnt returns a value hence not spawning a 2 and giving a message of "try some other move".
   
   __sample__
   ![](images/key1.PNG)
@@ -69,7 +69,7 @@
   __win__
  ![](images/win.PNG)
  
- the printing winning number 8 was just to tell that the input was 8 for winning number actual code doesnt do that
+ the print "winning number was 8" was just to tell that the input was 8 for winning number,actual code doesnt do that
  
  __lose__
  ![](images/lose.PNG)
